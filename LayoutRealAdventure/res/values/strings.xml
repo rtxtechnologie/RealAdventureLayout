@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ScreenActivity!</string>
+    <string name="app_name">Screen</string>
+    <string name="lots_of_text">assadfsadfsadfsagdshfhjgjk</string>
+    <drawable name="nista_logo">#111</drawable>
+    <color name="main_c1">#123</color>
+    <string name="startadventure">Start Adventure</string>
+    <string name="map">Maps</string>
+    <string name="navtool">Tools</string>
+    <string name="invkit">Inventory Kit</string>
+    <string name="emgtool">Emergency</string>
+    <string name="history">History</string>
+    <string name="setting">Setting</string>
+    <color name="grey">#171717</color>
+    <color name="white">#F8F8FF</color>
+    <style name="ButtonText">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">0dp</item>
+	    <item name="android:textSize">25dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	<style name="ButtonTextSmall">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">left</item>
+	    <item name="android:layout_margin">0dp</item>
+	    <item name="android:textSize">12dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	<style name="ButtonTextMedium">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">0dp</item>
+	    <item name="android:textSize">16dp</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	<style name="ButtonTextCenter">
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:textColor">#ffffff</item>
+	    <item name="android:gravity">center</item>
+	    <item name="android:layout_margin">0dp</item>
+	    <item name="android:textSize">12dp</item>
+	    <item name="android:textStyle">normal</item>
+	    <item name="android:shadowColor">#000000</item>
+	    <item name="android:shadowDx">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:shadowRadius">2</item>
+	</style>
+	<string name="sarecordview"> View &amp; Record Route</string>
+	<string name="sarecord">Record New Route</string>
+	<string name="sarouteview">Route View</string>
+	<string name="saconfig">Configuration</string>
+
+</resources>

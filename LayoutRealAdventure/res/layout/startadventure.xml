@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+        android:background="@drawable/buttonbig">
+    
+   
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/logo" />
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="bottom" >
+    
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        
+        android:stretchColumns="*">
+
+       
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/sa1"                
+                android:layout_width="wrap_content"
+                		android:layout_height="100dp"
+                		android:text="@string/sarouteview" 
+               			android:layout_span="2"
+               			android:onClick="myClickHandler"
+               			android:drawableTop="@drawable/routeview"
+               			android:background="@drawable/buttonmedium"
+               			android:textColor="@color/white"
+               			style="@style/ButtonTextCenter"/>
+
+            <Button
+                android:id="@+id/sa2"
+                android:layout_width="wrap_content"
+                		android:layout_height="100dp"
+                		android:text="@string/sarecord" 
+               			android:layout_span="2"
+               			android:onClick="myClickHandler"
+               			android:drawableTop="@drawable/recordroute"
+               			android:background="@drawable/buttonmedium"
+               			android:textColor="@color/white"
+               			style="@style/ButtonTextCenter"/>
+
+        </TableRow>
+
+        
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/sa3"
+                style="@style/ButtonTextCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_span="2"
+                android:background="@drawable/buttonmedium"
+                android:drawableTop="@drawable/recordview"
+                android:onClick="myClickHandler"
+                android:text="@string/sarecordview"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/sa4"
+                android:layout_width="wrap_content"
+                		android:layout_height="100dp"
+                		android:text="@string/saconfig" 
+               			android:layout_span="2"
+               			android:onClick="myClickHandler"
+               			android:drawableTop="@drawable/setting"
+               			android:background="@drawable/buttonmedium"
+               			android:textColor="@color/white"
+               			style="@style/ButtonTextCenter"/>
+
+        </TableRow>   
+    </TableLayout>
+    </LinearLayout>
+	
+    
+
+</LinearLayout>

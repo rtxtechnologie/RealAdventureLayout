@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/buttonbig"
+    android:gravity="bottom"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:stretchColumns="*">
+
+       
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Button
+                android:id="@+id/bmain1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                 android:text="@string/startadventure"
+                android:layout_span="5"
+                android:onClick="myClickHandler"
+                android:background="@drawable/buttonbig"
+                style="@style/ButtonText"
+                android:textColor="@color/white"/>
+                
+        </TableRow>
+
+ </TableLayout>       
+
+        
+
+            <TableLayout
+                android:id="@+id/tableLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:stretchColumns="*" 
+                >
+               		<TableRow>
+                    <Button
+                		android:id="@+id/bmain2"
+                		android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:text="@string/map" 
+               			android:layout_span="2"
+               			android:onClick="myClickHandler"
+               			android:drawableRight="@drawable/map"
+               			android:background="@drawable/buttonsmall"
+               			android:textColor="@color/white"
+               			style="@style/ButtonTextSmall"
+                	/>
+                    <Button
+                		android:id="@+id/bmain3"
+                		android:layout_width="wrap_content"
+                		android:layout_height="wrap_content"
+                		android:text="@string/navtool" 
+                		android:layout_span="2"
+                		android:drawableRight="@drawable/tools"
+                		android:onClick="myClickHandler"
+                		android:background="@drawable/buttonsmall"
+                		android:textColor="@color/white"
+                		style="@style/ButtonTextSmall"
+                	/>
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/bmain4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/invkit" 
+                        android:layout_span="2"
+                        android:drawableRight="@drawable/inventory"
+                        android:onClick="myClickHandler"
+                        android:background="@drawable/buttonsmall"
+                        android:textColor="@color/white"
+                        style="@style/ButtonTextSmall"
+                        />
+
+                    <Button
+                        android:id="@+id/bmain5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/emgtool"
+                        android:layout_span="2"
+                        android:drawableRight="@drawable/emg"
+                        android:onClick="myClickHandler"
+                        android:background="@drawable/buttonsmall"
+                        android:textColor="@color/white" 
+                        style="@style/ButtonTextSmall"
+                        />
+
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/bmain6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/history"
+                        android:layout_span="2"
+                        android:drawableRight="@drawable/history"
+                        android:onClick="myClickHandler"
+                        android:background="@drawable/buttonsmall"
+                        android:textColor="@color/white"
+                        style="@style/ButtonTextSmall"
+                         />
+
+                    <Button
+                        android:id="@+id/bmain7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/setting"
+                        android:layout_span="2"
+                        android:drawableRight="@drawable/setting"
+                        android:onClick="myClickHandler"
+                        android:background="@drawable/buttonsmall"
+                        android:textColor="@color/white"
+                        style="@style/ButtonTextSmall"
+                         />
+
+                </TableRow>
+
+                
+            </TableLayout>
+
+      
+        
+    
+
+</LinearLayout>
